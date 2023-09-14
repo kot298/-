@@ -1,0 +1,40 @@
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    background-color: rgb(155, 40, 231);
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.break {
+    width: 100%;
+}
+
+.break-p {
+    width: 100%;
+}
+
+.dot {
+    width: 35px;
+    height: 35px;
+    background-color: rgb(8, 8, 8);
+    border-radius: 50%;
+    font-size: 15px;
+    color: aliceblue;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(11, 255, 23);
+    box-shadow: 0 0 1px 1px rgba(11, 255, 23, 0.726);
+    position: absolute;
+}
